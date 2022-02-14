@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 16px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.question-coach {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid $gray;
+  border-left: 2px grey solid;
+  margin: 16px;
+  padding: 16px;
+  width: 40%;
+}
+
+.answer-coach {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid $gray;
+  border-left: 2px grey solid;
+  background-color: lemonchiffon;
+  margin: 16px;
+  padding: 16px;
+  width: 40%;
+}
+
+.again {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  margin: 16px;
+}
+
+.signature {
+  font-style: italic;
+}
